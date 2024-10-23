@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .app-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .custom-button {
+    padding: 15px 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .custom-button:hover {
+    transform: translateY(-5px);
+  }
+  
+  .sms-button {
+    background-color: #1f78ff;
+    color: white;
+  }
+  
+  .sms-button:hover {
+    background-color: #0f61d5;
+  }
+  
+  .whatsapp-button {
+    background-color: #25d366;
+    color: white;
+  }
+  
+  .whatsapp-button:hover {
+    background-color: #1ebc57;
+  }
+  
+  .message-list {
+    margin-top: 30px;
+    text-align: left;
+  }
+  
+  .message-list h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .message-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .message-list li {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-size: 15px;
+  }
+  
+  .message-list li:nth-child(even) {
+    background-color: #f1f1f1;
+  }
+  
+   
+  
+  
+  
+   
